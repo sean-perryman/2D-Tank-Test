@@ -7,39 +7,30 @@ using System;
 // http://www.scriptscoop.net/t/f2885b2638eb/unity-2d-gameobject-movement-and-rotation.html
 
 public class TankControl : MonoBehaviour {
-    public float speed;
-
-    private Transform trans;
-    private Vector3 rot;
-    private Vector3 pos;
-    float angle;
+    public float moveSpeed = 1.0f;
+    public float turnSpeed = 25.0f;
 
     void Start () {
-        trans = transform;
-        pos = trans.position;
-        rot = trans.rotation.eulerAngles;
     }
 	
-	// Update is called once per frame
 	void Update () {
-        angle = trans.eulerAngles.magnitude * Mathf.Deg2Rad;
-
+        //Tank movement controls
         float lts = XCI.GetAxis(XboxAxis.LeftTrigger);
         float rts = XCI.GetAxis(XboxAxis.RightTrigger);
-        
-        float velocityR = rts * speed;
-        float velocityL = lts * speed;
 
-        if (velocityL > 0 && velocityR > 0)
+        float turnLeft = turnSpeed * lts;
+        float turnRight = turnSpeed * rts;
+
+        if (rts > 0 && lts > 0)
         {
-            pos.x += (Mathf.Cos(angle) * speed) * Time.deltaTime;
-            pos.y += (Mathf.Sin(angle) * speed) * Time.deltaTime;
+            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
         }
 
-        else if (velocityL > 0) { rot.z -= velocityL; }
-        else if (velocityR > 0) { rot.z += velocityR; }
-                
-        trans.position = pos;
-        trans.rotation = Quaternion.Euler(rot);
+        if (lts > 0) {
+            transform.Rotate(Vector3.forward, -turnLeft * Time.deltaTime);
+        }
+        if (rts > 0) {
+            transform.Rotate(Vector3.forward, turnRight * Time.deltaTime);
+        }
     }
 }
