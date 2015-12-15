@@ -10,7 +10,10 @@ public class TankControl : MonoBehaviour {
     public float moveSpeed = 1.0f;
     public float turnSpeed = 25.0f;
 
+    TurretControl turretControl;
+
     void Start () {
+        turretControl = gameObject.GetComponentInChildren<TurretControl>();
     }
 	
 	void Update () {
@@ -21,16 +24,12 @@ public class TankControl : MonoBehaviour {
         float turnLeft = turnSpeed * lts;
         float turnRight = turnSpeed * rts;
 
-        if (rts > 0 && lts > 0)
+        //Stop all tank movement to fire
+        if (turretControl.turretFireDelay == 0)
         {
-            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
-        }
-
-        if (lts > 0) {
-            transform.Rotate(Vector3.forward, -turnLeft * Time.deltaTime);
-        }
-        if (rts > 0) {
-            transform.Rotate(Vector3.forward, turnRight * Time.deltaTime);
+            if (rts > 0 && lts > 0) { transform.Translate(Vector3.up * moveSpeed * Time.deltaTime); } //Forward movement if both triggers depressed
+            if (lts > 0) { transform.Rotate(Vector3.forward, -turnLeft * Time.deltaTime); } //Track left
+            if (rts > 0) { transform.Rotate(Vector3.forward, turnRight * Time.deltaTime); } //Track right
         }
     }
 }
