@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: dd595b3aafa55e94f978d5d65b3ec5f1
+timeCreated: 1450328457
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: explosion_01_strip13_0
+    21300002: explosion_01_strip13_1
+    21300004: explosion_01_strip13_2
+    21300006: explosion_01_strip13_3
+    21300008: explosion_01_strip13_4
+    21300010: explosion_01_strip13_5
+    21300012: explosion_01_strip13_6
+    21300014: explosion_01_strip13_7
+    21300016: explosion_01_strip13_8
+    21300018: explosion_01_strip13_9
+    21300020: explosion_01_strip13_10
+    21300022: explosion_01_strip13_11
+    21300024: explosion_01_strip13_12
+    21300026: explosion_01_strip13_13
+    21300028: explosion_01_strip13_14
+    21300030: explosion_01_strip13_15
+    21300032: explosion_01_strip13_16
+    21300034: explosion_01_strip13_17
+    21300036: explosion_01_strip13_18
+    21300038: explosion_01_strip13_19
+    21300040: explosion_01_strip13_20
+    21300042: explosion_01_strip13_21
+    21300044: explosion_01_strip13_22
+    21300046: explosion_01_strip13_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: explosion_01_strip13_0
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 29
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_1
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 162
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_2
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 24
+        width: 145
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_3
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 21
+        width: 146
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_4
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 16
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_5
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 11
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_6
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 8
+        width: 166
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_7
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 4
+        width: 182
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_8
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 3
+        width: 178
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_9
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 11
+        width: 158
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 74
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 49
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 42
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 33
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_14
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 103
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_15
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 95
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_16
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 93
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_17
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 85
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_18
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 63
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_19
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 28
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 22
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_21
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 7
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_22
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 4
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_01_strip13_23
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 3
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

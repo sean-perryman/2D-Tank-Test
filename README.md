@@ -19,8 +19,10 @@ Just messing around with a 2D tank game in Unity, something I've been wanting to
 * Tank Art: http://opengameart.org/content/simple-2d-tank
 * Smooth Camera 2D Follow: http://answers.unity3d.com/questions/29183/2d-camera-smooth-follow.html
 * Target House: http://opengameart.org/content/drawn-comic-house-144px-square
+* Explosion: http://opengameart.org/content/simple-explosion-bleeds-game-art
 
 ---
-- [ ] Collision between bullet and house
-- [ ] House explodes, turns into pile of rubble?
+- [x] Collision between bullet and house
+- [x] House explodes 
+- [ ] House turns into pile of rubble?
 - [ ] Find a non-Xbox control scheme
