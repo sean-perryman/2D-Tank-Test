@@ -11,11 +11,11 @@ public class HouseBehavior : MonoBehaviour {
             Destroy(coll.gameObject);
             Destroy(this.gameObject);
         }
+    }
 
-        if (coll.gameObject.name == "Tank")
-        {
-            Instantiate(explosion, coll.transform.position, coll.transform.rotation);
-            Destroy(coll.gameObject);
-        }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Instantiate(explosion, other.transform.position, other.transform.rotation);
+        Destroy(other.gameObject);
     }
 }
