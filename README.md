@@ -14,11 +14,13 @@ Just messing around with a 2D tank game in Unity, something I've been wanting to
 * Smooth Camera 2D Follow: http://answers.unity3d.com/questions/29183/2d-camera-smooth-follow.html
 * Target House: http://opengameart.org/content/drawn-comic-house-144px-square
 * Explosion: http://opengameart.org/content/simple-explosion-bleeds-game-art
+* Added in some quickly made controls, not functional yet. They also keep disappearing when I destroy things.
 ---
 - [x] Collision between bullet and house
 - [x] House explodes 
 - [x] Fix collider issue with tank and bullet
  * Changed collider on tank to a trigger, added in OnTriggerEnter2D function to House script.
+- [ ] Find out why controls disappear when destroying houses with bullets, or crashing tank into house.
 - [ ] House turns into pile of rubble?
 - [ ] Find a non-Xbox control scheme
 - [ ] Backward tank movement
