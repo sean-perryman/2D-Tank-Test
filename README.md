@@ -33,3 +33,6 @@ Just messing around with a 2D tank game in Unity, something I've been wanting to
 - [ ] Game-over screen
  - [ ] Restart game option
  - [ ] Quit game option
+- [ ] Multiplayer Option
+ - [ ] Figure out how start button on XBox controller will instantiate a copy of the tank, and be controlled by that controller only.
+ - [ ] Figure out how to potentially do cell phone controller for tanks
