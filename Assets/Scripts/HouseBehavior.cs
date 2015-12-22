@@ -13,9 +13,11 @@ public class HouseBehavior : MonoBehaviour {
         }
     }
 
+    //When the tank hits the house
     void OnTriggerEnter2D(Collider2D other)
     {
         Instantiate(explosion, other.transform.position, other.transform.rotation);
         Destroy(other.gameObject);
+        float fadeTime = GameObject.Find("Fader").GetComponent<Fading>().BeginFade(1);
     }
 }

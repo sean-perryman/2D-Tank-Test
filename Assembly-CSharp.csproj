@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BulletMovement.cs" />
      <Compile Include="Assets\Scripts\ExplosionController.cs" />
+     <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\HouseBehavior.cs" />
      <Compile Include="Assets\Scripts\SmoothCamera2D.cs" />
      <Compile Include="Assets\Scripts\TankControl.cs" />
