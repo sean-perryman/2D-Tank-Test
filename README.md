@@ -16,6 +16,10 @@ Just messing around with a 2D tank game in Unity, something I've been wanting to
 * Explosion: http://opengameart.org/content/simple-explosion-bleeds-game-art
 * Added in some quickly made controls, not functional yet. They also keep disappearing when I destroy things.
 ---
+- [ ] Fix intro and gameover scenes to reflect the state of the game
+ - [ ] Implement buttons to start the game, instructions, quit
+ - [ ] Implement a scoring system, and have the gameover screen display that
+ - [ ] Button on gameover scene to restart game, button to quit
 - [x] Collision between bullet and house
 - [x] House explodes 
 - [x] Fix collider issue with tank and bullet
