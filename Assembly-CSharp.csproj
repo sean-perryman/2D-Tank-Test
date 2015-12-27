@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BulletMovement.cs" />
+     <Compile Include="Assets\Scripts\ButtonPressHandler.cs" />
      <Compile Include="Assets\Scripts\ExplosionController.cs" />
      <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\HouseBehavior.cs" />
@@ -55,17 +56,11 @@
      <Compile Include="Assets\XboxCtrlrInput\Example\Test Level Scripts\MoveLaser.cs" />
      <Compile Include="Assets\XboxCtrlrInput\Example\Test Level Scripts\MovePlayer.cs" />
      <Compile Include="Assets\XboxCtrlrInput\XboxCtrlrInput.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="XInputDotNetPure">
  <HintPath>C:/Users/Sean/Documents/2D-Tank-Test/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
