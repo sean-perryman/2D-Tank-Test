@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using System.Collections;
 
 public class ButtonPressHandler : MonoBehaviour {
@@ -7,11 +8,19 @@ public class ButtonPressHandler : MonoBehaviour {
         Application.Quit();
     }
 
-    public void btn_RestartGame() { }
+    public void btn_RestartGame() {
+        EditorUtility.DisplayDialog("Clicked", "Restart Game", "Ok");
+    }
 
-    public void btn_Credits() { }
+    public void btn_Credits() {
+        EditorUtility.DisplayDialog("Clicked", "Credits", "Ok");
+    }
 
-    public void btn_Instructions() { }
+    public void btn_Instructions() {
+        EditorUtility.DisplayDialog("Clicked", "Instructions", "Ok");
+    }
 
-    public void btn_StartGame() { }
+    public void btn_StartGame() {
+        EditorUtility.DisplayDialog("Clicked", "Start Game", "Ok");
+    }
 }
