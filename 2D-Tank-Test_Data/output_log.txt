@@ -19,13 +19,13 @@ Loading C:\Users\Sean\Documents\2D-Tank-Test\2D-Tank-Test_Data\Managed\XInputDot
 Platform assembly: C:\Users\Sean\Documents\2D-Tank-Test\2D-Tank-Test_Data\Managed\XInputDotNetPure.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\2D-Tank-Test\2D-Tank-Test_Data\Managed\XInputDotNetPure.dll into Unity Child Domain
 Platform assembly: C:\Users\Sean\Documents\2D-Tank-Test\2D-Tank-Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.041 seconds
+- Completed reload, in  0.119 seconds
 desktop: 2560x1600 60Hz; virtual: 2560x1600 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Sean\Documents\2D-Tank-Test\2D-Tank-Test_Data\Managed\System.dll (this message is harmless)
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: b3c4 -> priority: 1 
-  Thread -> id: b3c8 -> priority: 1 
-  Thread -> id: b3cc -> priority: 1 
+  Thread -> id: 1ab0 -> priority: 1 
+  Thread -> id: 2da8 -> priority: 1 
+  Thread -> id: a790 -> priority: 1 
